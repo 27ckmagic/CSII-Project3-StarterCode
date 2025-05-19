@@ -9,7 +9,7 @@ public class Student {
 
     public Student(String id, String favoriteAnimal, String birthMonth,
                    int hoursSleep, int tiredLevel,
-                   boolean enoughSleep, boolean likeSleep) {
+                   boolean enoughSleep, boolean likeSleep) {//lucy
         this.id = id;
         this.favoriteAnimal = favoriteAnimal;
         this.birthMonth = birthMonth;
@@ -55,7 +55,7 @@ public class Student {
     }
     
     //formatting cuz it looks ugly otherwise
-    public String format() {
+    public String format() {//bryan
         return "ID: " + id + "\n"
              + "  Favorite Animal: " + favoriteAnimal + "\n"
              + "  Birth Month:     " + birthMonth + "\n"
